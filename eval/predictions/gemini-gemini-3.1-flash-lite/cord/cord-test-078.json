@@ -1,0 +1,43 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": null,
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "Lemon Tea (L)",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 25000.0,
+    "total": 25000.0,
+    "discount": null
+   },
+   {
+    "description": "Extra Jelly Lychee",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 5000.0,
+    "total": 5000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": null,
+  "discount": null,
+  "service_charge": null,
+  "tax": null,
+  "total": 30000.0
+ },
+ "latency_s": 2.3308883999998216,
+ "usage": {
+  "input_tokens": 1448,
+  "output_tokens": 151
+ },
+ "error": null
+}

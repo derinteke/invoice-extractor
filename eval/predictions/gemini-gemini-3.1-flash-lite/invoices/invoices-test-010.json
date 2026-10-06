@@ -1,0 +1,61 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Potts, Reed and Miller",
+  "vendor_tax_id": "913-82-5781",
+  "customer_name": "Brady LLC",
+  "customer_tax_id": "953-75-0545",
+  "invoice_number": "72455228",
+  "date_printed": "05/11/2021",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB54RDGK95400103726634",
+  "line_items": [
+   {
+    "description": "PlayStation 5 Console Disc Version **PREORDER**",
+    "quantity": 1.0,
+    "unit_price": 899.99,
+    "total": 899.99
+   },
+   {
+    "description": "Sony PlayStation 4 Slim 1TB (Upgraded to SSD) Black Game Console",
+    "quantity": 2.0,
+    "unit_price": 150.0,
+    "total": 300.0
+   },
+   {
+    "description": "Nintendo Gameboy Pocket Console Clear Purple with Box MGB-001 Japan Tested 53",
+    "quantity": 1.0,
+    "unit_price": 85.0,
+    "total": 85.0
+   },
+   {
+    "description": "NEC PC Engine INTERFACE UNIT IFU-30 CD ROM Console PI-TG001 Tested Japan",
+    "quantity": 1.0,
+    "unit_price": 159.99,
+    "total": 159.99
+   },
+   {
+    "description": "SONY Playstation2 Slim Console set \" SCPH-90000 / White \" / TESTED Working 11194",
+    "quantity": 4.0,
+    "unit_price": 90.0,
+    "total": 360.0
+   },
+   {
+    "description": "Magnavox Odyssey 2 Microprocessor Console System w Joy Sticks & 15 Games - 1978",
+    "quantity": 1.0,
+    "unit_price": 155.0,
+    "total": 155.0
+   }
+  ],
+  "subtotal": 1959.98,
+  "tax": 196.0,
+  "total": 2155.98
+ },
+ "latency_s": 5.564861700004258,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 616
+ },
+ "error": null
+}

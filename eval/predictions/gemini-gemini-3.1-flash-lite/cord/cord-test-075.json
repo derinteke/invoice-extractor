@@ -1,0 +1,75 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": "PIZZA HUT",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "CHOCO PUFF",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 29091.0,
+    "total": 29091.0,
+    "discount": null
+   },
+   {
+    "description": "CREAMY BEEF CLS FTC",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 42727.0,
+    "total": 42727.0,
+    "discount": null
+   },
+   {
+    "description": "NEW ORIENTAL CHK RICE",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 34545.0,
+    "total": 34545.0,
+    "discount": null
+   },
+   {
+    "description": "LIPTON PITCHER",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 54545.0,
+    "total": 54545.0,
+    "discount": null
+   },
+   {
+    "description": "SC/P SUPER SUPREME",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 47273.0,
+    "total": 47273.0,
+    "discount": null
+   },
+   {
+    "description": "CB/P BLACK PEPP BEEF",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 48182.0,
+    "total": 48182.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 256363.0,
+  "discount": null,
+  "service_charge": null,
+  "tax": 25637.0,
+  "total": 282000.0
+ },
+ "latency_s": 4.788181800002349,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 444
+ },
+ "error": null
+}

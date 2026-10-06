@@ -1,0 +1,61 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Jackson Ltd",
+  "vendor_tax_id": "914-85-0938",
+  "customer_name": "Williams, Fowler and Phillips",
+  "customer_tax_id": "963-87-9620",
+  "invoice_number": "96051364",
+  "date_printed": "04/28/2020",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB61XXNT90578783067262",
+  "line_items": [
+   {
+    "description": "49\"x22\" Marble Top Center Table Carnelian Mosaic Italian Art Christmas Gift Arts",
+    "quantity": 4.0,
+    "unit_price": 2400.0,
+    "total": 9600.0
+   },
+   {
+    "description": "6'x3' Marble Dining Center Table With Black Top Floral Collectible Inlaid E963",
+    "quantity": 3.0,
+    "unit_price": 6040.4,
+    "total": 18121.2
+   },
+   {
+    "description": "7'x4' Blue Random Marble Dining Hallway Table Top Lapis Lazuli Inlay Decor E947A",
+    "quantity": 5.0,
+    "unit_price": 8194.09,
+    "total": 40970.45
+   },
+   {
+    "description": "36\" Marble White Top Counter Table Lapis Inlaid Pietradura Art Christmas Gifts",
+    "quantity": 3.0,
+    "unit_price": 3200.0,
+    "total": 9600.0
+   },
+   {
+    "description": "6'x3' White Marble Dining Table Top Multi Inlay Floral Elephant Art Decor H4952",
+    "quantity": 5.0,
+    "unit_price": 6408.49,
+    "total": 32042.45
+   },
+   {
+    "description": "6'x3' Marble Center Table Marquetry Inlay Italian Mosaic Patio Arts H3112",
+    "quantity": 5.0,
+    "unit_price": 6647.61,
+    "total": 33238.05
+   }
+  ],
+  "subtotal": 143572.15,
+  "tax": 14357.22,
+  "total": 157929.37
+ },
+ "latency_s": 6.203432800000883,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 646
+ },
+ "error": null
+}

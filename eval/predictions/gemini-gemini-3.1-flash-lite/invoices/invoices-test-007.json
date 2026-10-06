@@ -1,0 +1,31 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Gregory, Patterson and Fischer",
+  "vendor_tax_id": "958-94-6606",
+  "customer_name": "Wilson PLC",
+  "customer_tax_id": "928-91-2431",
+  "invoice_number": "12222347",
+  "date_printed": "03/18/2017",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB10YCPS61791374226282",
+  "line_items": [
+   {
+    "description": "Zara Yellow Shift Dress XS",
+    "quantity": 5.0,
+    "unit_price": 24.75,
+    "total": 123.75
+   }
+  ],
+  "subtotal": 123.75,
+  "tax": 12.38,
+  "total": 136.13
+ },
+ "latency_s": 3.569874200002232,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 255
+ },
+ "error": null
+}

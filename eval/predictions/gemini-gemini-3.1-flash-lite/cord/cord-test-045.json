@@ -1,0 +1,59 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": "XXI Cafe",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "Lemon Tea (L).",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 25000.0,
+    "discount": null
+   },
+   {
+    "description": "Mike & Ike Original",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 28000.0,
+    "discount": null
+   },
+   {
+    "description": "Mike & Berry",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 28000.0,
+    "discount": null
+   },
+   {
+    "description": "Roti Keju Manis.",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 7000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": null,
+  "discount": null,
+  "service_charge": null,
+  "tax": null,
+  "total": 88000.0
+ },
+ "latency_s": 1.581077599999844,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 228
+ },
+ "error": null
+}

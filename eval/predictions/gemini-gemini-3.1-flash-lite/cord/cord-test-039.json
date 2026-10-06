@@ -1,0 +1,51 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": null,
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "HPL754DR LUNCH BOX 3P SET W/RED BAG & SPOON",
+    "is_option": false,
+    "quantity": 8.0,
+    "unit_price": 243000.0,
+    "total": 1944000.0,
+    "discount": -388800.0
+   },
+   {
+    "description": "HPL500 RICE CASE 7L W/CUP",
+    "is_option": false,
+    "quantity": 5.0,
+    "unit_price": 195000.0,
+    "total": 975000.0,
+    "discount": -195000.0
+   },
+   {
+    "description": "HPL754DB LUNCH BOX 2P SET W/BLACK BAG & SPOON",
+    "is_option": false,
+    "quantity": 4.0,
+    "unit_price": 243000.0,
+    "total": 972000.0,
+    "discount": -194400.0
+   }
+  ],
+  "subtotal": null,
+  "discount": null,
+  "service_charge": null,
+  "tax": null,
+  "total": 3112800.0
+ },
+ "latency_s": 4.950111600002856,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 303
+ },
+ "error": null
+}

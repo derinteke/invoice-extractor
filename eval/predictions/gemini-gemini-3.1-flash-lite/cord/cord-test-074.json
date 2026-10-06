@@ -1,0 +1,75 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": null,
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "BLACKCURRANT",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 32000.0,
+    "total": 32000.0,
+    "discount": null
+   },
+   {
+    "description": "SPRITE",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 32000.0,
+    "total": 32000.0,
+    "discount": null
+   },
+   {
+    "description": "GRILLED CALAMARI",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 85000.0,
+    "total": 85000.0,
+    "discount": null
+   },
+   {
+    "description": "DINE FOR 2",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 129000.0,
+    "total": 129000.0,
+    "discount": null
+   },
+   {
+    "description": "DANISH FISH & CHIPS DF",
+    "is_option": true,
+    "quantity": null,
+    "unit_price": null,
+    "total": null,
+    "discount": null
+   },
+   {
+    "description": "NEW YORK FISH & CHIPS",
+    "is_option": true,
+    "quantity": null,
+    "unit_price": null,
+    "total": null,
+    "discount": null
+   }
+  ],
+  "subtotal": 278000.0,
+  "discount": null,
+  "service_charge": 22240.0,
+  "tax": 30024.0,
+  "total": 330264.0
+ },
+ "latency_s": 4.860940699996718,
+ "usage": {
+  "input_tokens": 1448,
+  "output_tokens": 449
+ },
+ "error": null
+}

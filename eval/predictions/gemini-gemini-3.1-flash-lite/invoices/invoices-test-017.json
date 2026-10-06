@@ -1,0 +1,67 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Hernandez, Coleman and Alvarado",
+  "vendor_tax_id": "988-79-4495",
+  "customer_name": "Turner-Green",
+  "customer_tax_id": "950-70-5065",
+  "invoice_number": "14878236",
+  "date_printed": "04/26/2015",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB17VARZ09653710676977",
+  "line_items": [
+   {
+    "description": "Cabi 5610 Striped White Blue Launch Maxi Dress Womens Sz M",
+    "quantity": 3.0,
+    "unit_price": 48.99,
+    "total": 146.97
+   },
+   {
+    "description": "Boden black blue floral short sleeve dress size 6",
+    "quantity": 2.0,
+    "unit_price": 36.99,
+    "total": 73.98
+   },
+   {
+    "description": "Ann Taylor LOFT 3/4 Knit Sleeve Dress Size 0",
+    "quantity": 4.0,
+    "unit_price": 8.0,
+    "total": 32.0
+   },
+   {
+    "description": "Divided Black Asymmetrical Dress -size 8 - NWT",
+    "quantity": 2.0,
+    "unit_price": 7.99,
+    "total": 15.98
+   },
+   {
+    "description": "Women Elegant Fashion O-Neck Knee Length Short Sleeve Retro Floral Print Dress",
+    "quantity": 4.0,
+    "unit_price": 12.0,
+    "total": 48.0
+   },
+   {
+    "description": "Vintage 90s Sostanza Plus Size Dress 22W Floral Cottagecore",
+    "quantity": 3.0,
+    "unit_price": 49.96,
+    "total": 149.88
+   },
+   {
+    "description": "Matilda Jane Women's Light Rising High Low Green Floral Dress Size L Pockets",
+    "quantity": 1.0,
+    "unit_price": 50.0,
+    "total": 50.0
+   }
+  ],
+  "subtotal": 516.81,
+  "tax": 51.68,
+  "total": 568.49
+ },
+ "latency_s": 3.4839151999985916,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 636
+ },
+ "error": null
+}

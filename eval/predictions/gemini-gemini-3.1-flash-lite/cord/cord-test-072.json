@@ -1,0 +1,35 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": "D'crepes",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": "IDR",
+  "iban": null,
+  "line_items": [
+   {
+    "description": "Choco Devil",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 15909.0,
+    "total": 15909.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 15909.0,
+  "discount": null,
+  "service_charge": null,
+  "tax": 1591.0,
+  "total": 17500.0
+ },
+ "latency_s": 3.923961899999995,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 211
+ },
+ "error": null
+}

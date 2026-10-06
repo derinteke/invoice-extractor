@@ -1,0 +1,35 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": "XXI café",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "Combo 1",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 30000.0,
+    "total": 30000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": null,
+  "discount": null,
+  "service_charge": null,
+  "tax": null,
+  "total": 30000.0
+ },
+ "latency_s": 2.8153419000009308,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 106
+ },
+ "error": null
+}

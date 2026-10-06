@@ -1,0 +1,43 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": "Tous Les Jours",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "[MD] SOFT STEAMED CHEESEC",
+    "is_option": false,
+    "quantity": 2.0,
+    "unit_price": null,
+    "total": 20000.0,
+    "discount": null
+   },
+   {
+    "description": "[MD] SOFT STEAMED CHOCOCA",
+    "is_option": false,
+    "quantity": 2.0,
+    "unit_price": null,
+    "total": 20000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": null,
+  "discount": null,
+  "service_charge": null,
+  "tax": null,
+  "total": 40000.0
+ },
+ "latency_s": 4.161731599997438,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 146
+ },
+ "error": null
+}

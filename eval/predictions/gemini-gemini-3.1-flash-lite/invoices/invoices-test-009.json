@@ -1,0 +1,31 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Rodriguez-Jackson",
+  "vendor_tax_id": "983-85-8151",
+  "customer_name": "Williams, Fletcher and Taylor",
+  "customer_tax_id": "932-73-0724",
+  "invoice_number": "24048799",
+  "date_printed": "05/21/2014",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB55GZIH60469560297692",
+  "line_items": [
+   {
+    "description": "Large Blue Long Sleeve Fit & Flare Dress Elastic Waist Crochet Detail Bohemian",
+    "quantity": 5.0,
+    "unit_price": 0.99,
+    "total": 4.95
+   }
+  ],
+  "subtotal": 4.95,
+  "tax": 0.5,
+  "total": 5.45
+ },
+ "latency_s": 4.513245599999209,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 257
+ },
+ "error": null
+}

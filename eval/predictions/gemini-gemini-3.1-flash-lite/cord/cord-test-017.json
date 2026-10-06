@@ -1,0 +1,75 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": "Samjin Amook",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": "IDR",
+  "iban": null,
+  "line_items": [
+   {
+    "description": "Goblin's Mace",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 25000.0,
+    "discount": null
+   },
+   {
+    "description": "Mozarella Hot Dog",
+    "is_option": false,
+    "quantity": 2.0,
+    "unit_price": null,
+    "total": 38000.0,
+    "discount": null
+   },
+   {
+    "description": "Chili Pepper Croquette",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 14000.0,
+    "discount": null
+   },
+   {
+    "description": "Cheese Croquette",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 14000.0,
+    "discount": null
+   },
+   {
+    "description": "Plastik Amook",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 0.0,
+    "discount": null
+   },
+   {
+    "description": "Plastik Putih",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 0.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 91000.0,
+  "discount": null,
+  "service_charge": null,
+  "tax": null,
+  "total": 91000.0
+ },
+ "latency_s": 2.580992500006687,
+ "usage": {
+  "input_tokens": 1412,
+  "output_tokens": 335
+ },
+ "error": null
+}

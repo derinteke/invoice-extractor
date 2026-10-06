@@ -1,0 +1,61 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Wilkerson Ltd",
+  "vendor_tax_id": "941-97-9699",
+  "customer_name": "English-Brown",
+  "customer_tax_id": "937-79-7558",
+  "invoice_number": "17619666",
+  "date_printed": "03/09/2020",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB40JKGK45011938135603",
+  "line_items": [
+   {
+    "description": "Used Couch Dark Blue",
+    "quantity": 2.0,
+    "unit_price": 97.0,
+    "total": 194.0
+   },
+   {
+    "description": "Blue Shiny Stone Floral Art Dinning Table Top Marble Kitchen Table Top 48 Inches",
+    "quantity": 3.0,
+    "unit_price": 3960.0,
+    "total": 11880.0
+   },
+   {
+    "description": "24\" Sale Online Coffee Top Table Marquetry Inlay Floral Design Christmas Gift",
+    "quantity": 5.0,
+    "unit_price": 1188.0,
+    "total": 5940.0
+   },
+   {
+    "description": "34\"x34\" Marble Round Top Coffee Table Elephant Floral Inlaid Art Christmas Gifts",
+    "quantity": 3.0,
+    "unit_price": 1900.0,
+    "total": 5700.0
+   },
+   {
+    "description": "35\" Round Marble Coffee Top Table Floral Marquetry Inlay Furniture Decors B430",
+    "quantity": 4.0,
+    "unit_price": 1259.0,
+    "total": 5036.0
+   },
+   {
+    "description": "54 Inches Marble Dinning Table Top Hand Crafted Reception Table Home Furniture",
+    "quantity": 2.0,
+    "unit_price": 4452.0,
+    "total": 8904.0
+   }
+  ],
+  "subtotal": 37654.0,
+  "tax": 3765.4,
+  "total": 41419.4
+ },
+ "latency_s": 4.596783400003915,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 592
+ },
+ "error": null
+}

@@ -1,0 +1,51 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": null,
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "GRILLED BABY POTATO (R",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 50500.0,
+    "total": 50500.0,
+    "discount": null
+   },
+   {
+    "description": "HOT TUNA",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 67000.0,
+    "total": 67000.0,
+    "discount": null
+   },
+   {
+    "description": "HOT TUNA",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 67000.0,
+    "total": 67000.0,
+    "discount": -67000.0
+   }
+  ],
+  "subtotal": 117500.0,
+  "discount": null,
+  "service_charge": 11070.0,
+  "tax": 19557.0,
+  "total": 148127.0
+ },
+ "latency_s": 2.2656898999994155,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 346
+ },
+ "error": null
+}

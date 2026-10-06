@@ -1,0 +1,43 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": null,
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "1001-Choco Bun",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 22000.0,
+    "total": 22000.0,
+    "discount": null
+   },
+   {
+    "description": "6001-Plastic Bag Small",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 0.0,
+    "total": 0.0,
+    "discount": null
+   }
+  ],
+  "subtotal": null,
+  "discount": null,
+  "service_charge": null,
+  "tax": null,
+  "total": 22000.0
+ },
+ "latency_s": 2.9334308999968925,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 153
+ },
+ "error": null
+}

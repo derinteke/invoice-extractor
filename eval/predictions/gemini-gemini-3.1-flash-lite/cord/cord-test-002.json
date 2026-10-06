@@ -1,0 +1,43 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": null,
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "JASMINE MT ( L )",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 24000.0,
+    "total": 24000.0,
+    "discount": null
+   },
+   {
+    "description": "COCONUT JELLY ( L )",
+    "is_option": false,
+    "quantity": null,
+    "unit_price": 4000.0,
+    "total": 4000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 28000.0,
+  "discount": null,
+  "service_charge": null,
+  "tax": null,
+  "total": 28000.0
+ },
+ "latency_s": 3.0312101999952574,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 266
+ },
+ "error": null
+}

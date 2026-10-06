@@ -1,0 +1,91 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": null,
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": "IDR",
+  "iban": null,
+  "line_items": [
+   {
+    "description": "COLD OCHA",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 10909.0,
+    "total": 10909.0,
+    "discount": null
+   },
+   {
+    "description": "BCA PROMO",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 54455.0,
+    "total": 54455.0,
+    "discount": null
+   },
+   {
+    "description": "!-ABURA UDON SPICY",
+    "is_option": true,
+    "quantity": 1.0,
+    "unit_price": 0.0,
+    "total": 0.0,
+    "discount": null
+   },
+   {
+    "description": "!-KAKE UDON",
+    "is_option": true,
+    "quantity": 1.0,
+    "unit_price": 0.0,
+    "total": 0.0,
+    "discount": null
+   },
+   {
+    "description": "SKEWERED SHUMAI",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 12727.0,
+    "total": 12727.0,
+    "discount": null
+   },
+   {
+    "description": "SKEWERED TOFU ROLL",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 12727.0,
+    "total": 12727.0,
+    "discount": null
+   },
+   {
+    "description": "EBI TEMPURA",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 13636.0,
+    "total": 13636.0,
+    "discount": null
+   },
+   {
+    "description": "KITSUNE UDON (KIDS)",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 28182.0,
+    "total": 28182.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 132636.0,
+  "discount": null,
+  "service_charge": null,
+  "tax": 13264.0,
+  "total": 145900.0
+ },
+ "latency_s": 2.878729600000952,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 622
+ },
+ "error": null
+}

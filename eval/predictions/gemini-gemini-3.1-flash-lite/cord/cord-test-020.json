@@ -1,0 +1,67 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": null,
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "cashew nuts chkn",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 64500.0,
+    "discount": null
+   },
+   {
+    "description": "garlic pepper beef",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 79500.0,
+    "discount": null
+   },
+   {
+    "description": "red curry beef",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 69500.0,
+    "discount": null
+   },
+   {
+    "description": "phad thai",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 64500.0,
+    "discount": null
+   },
+   {
+    "description": "steamed rice",
+    "is_option": false,
+    "quantity": 4.0,
+    "unit_price": null,
+    "total": 47600.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 325600.0,
+  "discount": null,
+  "service_charge": 17908.0,
+  "tax": 34351.0,
+  "total": 377859.0
+ },
+ "latency_s": 3.9393928999998025,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 299
+ },
+ "error": null
+}

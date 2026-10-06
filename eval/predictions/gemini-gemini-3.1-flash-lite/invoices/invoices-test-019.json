@@ -1,0 +1,37 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Estrada and Sons",
+  "vendor_tax_id": "926-74-0874",
+  "customer_name": "Santana-Sherman",
+  "customer_tax_id": "939-81-4695",
+  "invoice_number": "57338979",
+  "date_printed": "05/10/2021",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB90ALYU92362601688809",
+  "line_items": [
+   {
+    "description": "3'x2' Black Marvels Top Dining Table Italian Handmade Floral Art Christmas Gift",
+    "quantity": 5.0,
+    "unit_price": 2585.0,
+    "total": 12925.0
+   },
+   {
+    "description": "12'' Marble Coffee Table Top Multi Stone Peacock & Floral Inlay Home Decors W364",
+    "quantity": 3.0,
+    "unit_price": 264.27,
+    "total": 792.81
+   }
+  ],
+  "subtotal": 13717.81,
+  "tax": 1371.78,
+  "total": 15089.59
+ },
+ "latency_s": 4.318416699999943,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 348
+ },
+ "error": null
+}

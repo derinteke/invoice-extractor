@@ -1,0 +1,43 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Pierce PLC",
+  "vendor_tax_id": "959-99-4796",
+  "customer_name": "Cochran-Alvarez",
+  "customer_tax_id": "961-72-7276",
+  "invoice_number": "67856369",
+  "date_printed": "05/27/2020",
+  "date": null,
+  "currency": null,
+  "iban": "GB68KEDC47196257123820",
+  "line_items": [
+   {
+    "description": "24 Inches Round Marble Coffee Table Top Inlay Sofa Table with Geometrical Design",
+    "quantity": 4.0,
+    "unit_price": 446.25,
+    "total": 1785.0
+   },
+   {
+    "description": "30\"x30\" Marble Black Top Table Semi Precious Bird Art Black Friday Gift Décor",
+    "quantity": 1.0,
+    "unit_price": 2399.0,
+    "total": 2399.0
+   },
+   {
+    "description": "2 Industrial Live edge Legs 16\" Tall Cast Aluminum Cast Iron Coffee Table Bench",
+    "quantity": 2.0,
+    "unit_price": 159.28,
+    "total": 318.56
+   }
+  ],
+  "subtotal": 4502.56,
+  "tax": 450.26,
+  "total": 4952.82
+ },
+ "latency_s": 4.477870400005486,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 408
+ },
+ "error": null
+}

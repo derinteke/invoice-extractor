@@ -1,0 +1,37 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Nichols-Barajas",
+  "vendor_tax_id": "953-87-6813",
+  "customer_name": "Mckay PLC",
+  "customer_tax_id": "965-90-8517",
+  "invoice_number": "56014042",
+  "date_printed": "10/01/2014",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB08KXQT19711661357354",
+  "line_items": [
+   {
+    "description": "Jordan Hydro 2 (TD)-Child Size 10c",
+    "quantity": 2.0,
+    "unit_price": 5.75,
+    "total": 11.5
+   },
+   {
+    "description": "Sketchers Energy Lights Boys Black Canvas Size 4 With Charging Cable",
+    "quantity": 4.0,
+    "unit_price": 12.0,
+    "total": 48.0
+   }
+  ],
+  "subtotal": 59.5,
+  "tax": 5.95,
+  "total": 65.45
+ },
+ "latency_s": 3.5203490999992937,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 317
+ },
+ "error": null
+}

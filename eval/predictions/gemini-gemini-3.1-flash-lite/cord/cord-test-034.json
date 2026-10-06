@@ -1,0 +1,43 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": "Ayam Geprek Bensu",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "Ash Chick Sambal Matah",
+    "is_option": false,
+    "quantity": 5.0,
+    "unit_price": null,
+    "total": 75000.0,
+    "discount": null
+   },
+   {
+    "description": "Jamur Goreng",
+    "is_option": false,
+    "quantity": 2.0,
+    "unit_price": null,
+    "total": 10000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 85000.0,
+  "discount": null,
+  "service_charge": null,
+  "tax": 8500.0,
+  "total": 93500.0
+ },
+ "latency_s": 3.472548800004006,
+ "usage": {
+  "input_tokens": 1406,
+  "output_tokens": 166
+ },
+ "error": null
+}

@@ -1,0 +1,51 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": "Kopi Legit",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": "IDR",
+  "iban": null,
+  "line_items": [
+   {
+    "description": "Pecel Komplit + Nasi",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 42000.0,
+    "total": 42000.0,
+    "discount": null
+   },
+   {
+    "description": "SOTO KUDUS",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 47000.0,
+    "total": 47000.0,
+    "discount": null
+   },
+   {
+    "description": "Mineral Water",
+    "is_option": false,
+    "quantity": 2.0,
+    "unit_price": 9000.0,
+    "total": 18000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 107000.0,
+  "discount": null,
+  "service_charge": 5350.0,
+  "tax": 11235.0,
+  "total": 123585.0
+ },
+ "latency_s": 5.522863900005177,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 338
+ },
+ "error": null
+}

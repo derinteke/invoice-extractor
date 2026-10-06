@@ -1,0 +1,51 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": null,
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "SALMON PESTO",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 85500.0,
+    "total": 85500.0,
+    "discount": null
+   },
+   {
+    "description": "SALMON PESTO",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 85500.0,
+    "total": 85500.0,
+    "discount": null
+   },
+   {
+    "description": "Disc -100%(ITM06)",
+    "is_option": false,
+    "quantity": null,
+    "unit_price": null,
+    "total": null,
+    "discount": -85500.0
+   }
+  ],
+  "subtotal": 85500.0,
+  "discount": null,
+  "service_charge": 10260.0,
+  "tax": 18126.0,
+  "total": 113886.0
+ },
+ "latency_s": 2.520364199997857,
+ "usage": {
+  "input_tokens": 1448,
+  "output_tokens": 238
+ },
+ "error": null
+}

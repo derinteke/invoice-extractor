@@ -1,0 +1,43 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": null,
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": "IDR",
+  "iban": null,
+  "line_items": [
+   {
+    "description": "Kupon 15",
+    "is_option": false,
+    "quantity": null,
+    "unit_price": null,
+    "total": 100000.0,
+    "discount": null
+   },
+   {
+    "description": "ADD CHICKEN BOX",
+    "is_option": false,
+    "quantity": null,
+    "unit_price": null,
+    "total": 909.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 100909.0,
+  "discount": null,
+  "service_charge": null,
+  "tax": 10091.0,
+  "total": 111000.0
+ },
+ "latency_s": 1.8436400999999023,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 146
+ },
+ "error": null
+}

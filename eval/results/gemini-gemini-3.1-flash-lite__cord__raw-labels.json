@@ -1,0 +1,841 @@
+{
+ "summary": {
+  "documents": 100,
+  "field_accuracy": {
+   "discount": 1.0,
+   "service_charge": 1.0,
+   "subtotal": 0.9692307692307692,
+   "tax": 1.0,
+   "total": 1.0
+  },
+  "field_accuracy_micro": 0.9906976744186047,
+  "item_precision": 0.9649805447470817,
+  "item_recall": 0.9763779527559056,
+  "item_f1": 0.9706457925636007,
+  "doc_exact": 0.91,
+  "dataset": "cord",
+  "model": "gemini/gemini-3.1-flash-lite",
+  "failures": 0,
+  "labels": "raw",
+  "median_latency_s": 3.1106777000022703,
+  "routing": {
+   "auto_accept_rate": 0.96,
+   "auto_accept_precision": 0.9375,
+   "errors_caught": 0.3333333333333333
+  }
+ },
+ "documents": [
+  {
+   "id": "cord-test-000",
+   "exact": false,
+   "flagged": true,
+   "issues": [
+    "lines_vs_subtotal"
+   ],
+   "wrong_fields": [
+    "subtotal"
+   ],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-001",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "3/3 (pred 3)"
+  },
+  {
+   "id": "cord-test-002",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-003",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-004",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "3/3 (pred 3)"
+  },
+  {
+   "id": "cord-test-005",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-006",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "3/3 (pred 3)"
+  },
+  {
+   "id": "cord-test-007",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-008",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-009",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-010",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-011",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-012",
+   "exact": false,
+   "flagged": true,
+   "issues": [
+    "line_math"
+   ],
+   "wrong_fields": [],
+   "items": "1/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-013",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-014",
+   "exact": true,
+   "flagged": true,
+   "issues": [
+    "totals_math"
+   ],
+   "wrong_fields": [],
+   "items": "6/6 (pred 6)"
+  },
+  {
+   "id": "cord-test-015",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-016",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-017",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "6/6 (pred 6)"
+  },
+  {
+   "id": "cord-test-018",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-019",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-020",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "5/5 (pred 5)"
+  },
+  {
+   "id": "cord-test-021",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-022",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-023",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-024",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "3/3 (pred 3)"
+  },
+  {
+   "id": "cord-test-025",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "3/3 (pred 3)"
+  },
+  {
+   "id": "cord-test-026",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "3/3 (pred 3)"
+  },
+  {
+   "id": "cord-test-027",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-028",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "3/3 (pred 3)"
+  },
+  {
+   "id": "cord-test-029",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "6/6 (pred 6)"
+  },
+  {
+   "id": "cord-test-030",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-031",
+   "exact": false,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 3)"
+  },
+  {
+   "id": "cord-test-032",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-033",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "3/3 (pred 3)"
+  },
+  {
+   "id": "cord-test-034",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-035",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "4/4 (pred 4)"
+  },
+  {
+   "id": "cord-test-036",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-037",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-038",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "9/9 (pred 9)"
+  },
+  {
+   "id": "cord-test-039",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "3/3 (pred 3)"
+  },
+  {
+   "id": "cord-test-040",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-041",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "10/10 (pred 10)"
+  },
+  {
+   "id": "cord-test-042",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-043",
+   "exact": false,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 2)"
+  },
+  {
+   "id": "cord-test-044",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-045",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "4/4 (pred 4)"
+  },
+  {
+   "id": "cord-test-046",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-047",
+   "exact": false,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/3 (pred 3)"
+  },
+  {
+   "id": "cord-test-048",
+   "exact": false,
+   "flagged": true,
+   "issues": [
+    "lines_vs_subtotal"
+   ],
+   "wrong_fields": [],
+   "items": "0/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-049",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-050",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-051",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "4/4 (pred 4)"
+  },
+  {
+   "id": "cord-test-052",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-053",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "3/3 (pred 3)"
+  },
+  {
+   "id": "cord-test-054",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-055",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-056",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-057",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-058",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-059",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "9/9 (pred 9)"
+  },
+  {
+   "id": "cord-test-060",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-061",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "6/6 (pred 6)"
+  },
+  {
+   "id": "cord-test-062",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-063",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-064",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-065",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-066",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-067",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-068",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-069",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "3/3 (pred 3)"
+  },
+  {
+   "id": "cord-test-070",
+   "exact": false,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "8/10 (pred 8)"
+  },
+  {
+   "id": "cord-test-071",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-072",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-073",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-074",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "4/4 (pred 4)"
+  },
+  {
+   "id": "cord-test-075",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "6/6 (pred 6)"
+  },
+  {
+   "id": "cord-test-076",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "4/4 (pred 4)"
+  },
+  {
+   "id": "cord-test-077",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-078",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-079",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-080",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-081",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "3/3 (pred 3)"
+  },
+  {
+   "id": "cord-test-082",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "3/3 (pred 3)"
+  },
+  {
+   "id": "cord-test-083",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-084",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-085",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "11/11 (pred 11)"
+  },
+  {
+   "id": "cord-test-086",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-087",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-088",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-089",
+   "exact": false,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [
+    "subtotal"
+   ],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-090",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-091",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-092",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-093",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-094",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "4/4 (pred 4)"
+  },
+  {
+   "id": "cord-test-095",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "2/2 (pred 2)"
+  },
+  {
+   "id": "cord-test-096",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 1)"
+  },
+  {
+   "id": "cord-test-097",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "3/3 (pred 3)"
+  },
+  {
+   "id": "cord-test-098",
+   "exact": true,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "3/3 (pred 3)"
+  },
+  {
+   "id": "cord-test-099",
+   "exact": false,
+   "flagged": false,
+   "issues": [],
+   "wrong_fields": [],
+   "items": "1/1 (pred 4)"
+  }
+ ]
+}

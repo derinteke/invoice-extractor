@@ -1,0 +1,55 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "George, Casey and Harris",
+  "vendor_tax_id": "907-77-8965",
+  "customer_name": "Stewart, Fields and Scott",
+  "customer_tax_id": "995-83-6792",
+  "invoice_number": "32830026",
+  "date_printed": "12/20/2014",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB81OUZN44807763808287",
+  "line_items": [
+   {
+    "description": "SONY Playstation2 Console SCPH-50000 \" Peal Color \" / TESTED 11176",
+    "quantity": 5.0,
+    "unit_price": 45.0,
+    "total": 225.0
+   },
+   {
+    "description": "Nintendo Switch Lite Gray CONSOLE ONLY - No Accessories or Charger [B5-2]",
+    "quantity": 1.0,
+    "unit_price": 135.0,
+    "total": 135.0
+   },
+   {
+    "description": "Nintendo Wii Console RVL-001 Complete Hookups W/ Mario&Sonic; Tested / Working",
+    "quantity": 3.0,
+    "unit_price": 78.88,
+    "total": 236.64
+   },
+   {
+    "description": "B351 Nintendo new 3DS console White Japan w/stylus pen",
+    "quantity": 4.0,
+    "unit_price": 79.99,
+    "total": 319.96
+   },
+   {
+    "description": "Sega Saturn Console Gray HST-3200 HST-3210 Japanese",
+    "quantity": 1.0,
+    "unit_price": 119.98,
+    "total": 119.98
+   }
+  ],
+  "subtotal": 1036.58,
+  "tax": 103.66,
+  "total": 1140.24
+ },
+ "latency_s": 3.7900196999980835,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 550
+ },
+ "error": null
+}

@@ -1,0 +1,51 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": "BAKMI BANGKA",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": "IDR",
+  "iban": null,
+  "line_items": [
+   {
+    "description": "Nasi Cap Cay Porsi B",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 65000.0,
+    "total": 65000.0,
+    "discount": null
+   },
+   {
+    "description": "Teh Tawar",
+    "is_option": false,
+    "quantity": 2.0,
+    "unit_price": 4000.0,
+    "total": 8000.0,
+    "discount": null
+   },
+   {
+    "description": "Fu Yung Hai",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 65000.0,
+    "total": 65000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 138000.0,
+  "discount": null,
+  "service_charge": null,
+  "tax": null,
+  "total": 138000.0
+ },
+ "latency_s": 5.0321131000018795,
+ "usage": {
+  "input_tokens": 1448,
+  "output_tokens": 250
+ },
+ "error": null
+}

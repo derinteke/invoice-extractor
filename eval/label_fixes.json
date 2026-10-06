@@ -1,0 +1,14 @@
+{
+  "_about": "Ground-truth errors in katanaml-org/invoices-donut-data-v1 (test split), each checked against the image. Scores are reported with and without these fixes (--raw-labels).",
+  "invoices-test-001": {"iban": {"value": "GB31LZXS20242755934691", "label": "GB31LZX520242755934691", "evidence": "image; label has S->5 OCR error and fails mod-97"}},
+  "invoices-test-003": {"iban": {"value": "GB08KXQT19711661357354", "label": "GB08KXQT197119711661357354", "evidence": "image; label repeats '1971' and fails mod-97"}},
+  "invoices-test-007": {"iban": {"value": "GB10YCPS61791374226282", "label": "GB10YCPS61791791374226282", "evidence": "image; label repeats '791'"}},
+  "invoices-test-011": {"iban": {"value": "GB23MPYI18052629547218", "label": "GB23MPY118052629547218", "evidence": "image; label has I->1 OCR error and fails mod-97"}},
+  "invoices-test-013": {"total": {"value": 157929.37, "label": 1579929.37, "evidence": "image shows $ 157 929,37 (= 143 572,15 + 14 357,22)"}},
+  "invoices-test-019": {"iban": {"value": "GB90ALYU92362601688809", "label": "GB90ALYU92362362601688809", "evidence": "image; label repeats '362' and fails mod-97"}},
+  "invoices-test-022": {
+    "iban": {"value": "GB81OUZN44807763808287", "label": "GB810UZN44807763808287", "evidence": "image; label has O->0 OCR error and fails mod-97"},
+    "vendor_name": {"value": "George, Casey and Harris 0943 Justin Branch Apt. 233 Ingramberg, DE 59102", "label": "907-77-8965", "evidence": "image; label holds the seller tax id instead of the name"}
+  },
+  "invoices-test-025": {"iban": {"value": "GB20IFBT89821062114124", "label": "GB201FBT89821062114124", "evidence": "image; label has I->1 OCR error and fails mod-97"}}
+}

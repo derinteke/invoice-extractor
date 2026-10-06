@@ -1,0 +1,75 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": null,
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "RedVelvet Cheese Slc",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 38000.0,
+    "total": 38000.0,
+    "discount": null
+   },
+   {
+    "description": "Chicken Baked Rice",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 55000.0,
+    "total": 55000.0,
+    "discount": null
+   },
+   {
+    "description": "Fish n Chips",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 65000.0,
+    "total": 65000.0,
+    "discount": null
+   },
+   {
+    "description": "Mushroom Soup",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 35000.0,
+    "total": 35000.0,
+    "discount": null
+   },
+   {
+    "description": "Chamomile",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 25000.0,
+    "total": 25000.0,
+    "discount": null
+   },
+   {
+    "description": "Iced Tea",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 20000.0,
+    "total": 20000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 238000.0,
+  "discount": -100000.0,
+  "service_charge": 17850.0,
+  "tax": 25585.0,
+  "total": 281435.0
+ },
+ "latency_s": 3.2875914000032935,
+ "usage": {
+  "input_tokens": 1448,
+  "output_tokens": 511
+ },
+ "error": null
+}

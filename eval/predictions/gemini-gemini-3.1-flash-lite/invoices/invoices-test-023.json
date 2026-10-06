@@ -1,0 +1,61 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Velasquez, Ward and Ballard",
+  "vendor_tax_id": "950-74-4484",
+  "customer_name": "Lewis Group",
+  "customer_tax_id": "996-86-8087",
+  "invoice_number": "71748307",
+  "date_printed": "12/24/2011",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB48EAPQ46997886926034",
+  "line_items": [
+   {
+    "description": "2pcs baby boys clothes cotton hoodied top+pants baby boys Outfits gentleman",
+    "quantity": 5.0,
+    "unit_price": 10.99,
+    "total": 54.95
+   },
+   {
+    "description": "fire los angeles dress Medium",
+    "quantity": 2.0,
+    "unit_price": 6.5,
+    "total": 13.0
+   },
+   {
+    "description": "PAS DE CALAIS DRESS WOMENS SIZE 36",
+    "quantity": 3.0,
+    "unit_price": 9.95,
+    "total": 29.85
+   },
+   {
+    "description": "Zara Yellow Shift Dress XS",
+    "quantity": 5.0,
+    "unit_price": 24.75,
+    "total": 123.75
+   },
+   {
+    "description": "miley cyrus Bubble Dress",
+    "quantity": 2.0,
+    "unit_price": 16.0,
+    "total": 32.0
+   },
+   {
+    "description": "NWT $1200 J.Crew Silk Chiffon Ivory Wedding Dress with Beading",
+    "quantity": 4.0,
+    "unit_price": 295.0,
+    "total": 1180.0
+   }
+  ],
+  "subtotal": 1433.55,
+  "tax": 143.35,
+  "total": 1576.9
+ },
+ "latency_s": 2.6373871000032523,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 554
+ },
+ "error": null
+}

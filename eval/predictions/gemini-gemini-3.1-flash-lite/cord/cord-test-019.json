@@ -1,0 +1,43 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": null,
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "AMBUSH DBL CHS",
+    "is_option": false,
+    "quantity": 4.0,
+    "unit_price": null,
+    "total": 60000.0,
+    "discount": null
+   },
+   {
+    "description": "AMBUSH CHS BUR",
+    "is_option": false,
+    "quantity": 10.0,
+    "unit_price": null,
+    "total": 100000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 160000.0,
+  "discount": null,
+  "service_charge": null,
+  "tax": 16000.0,
+  "total": 176000.0
+ },
+ "latency_s": 2.907766399999673,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 160
+ },
+ "error": null
+}

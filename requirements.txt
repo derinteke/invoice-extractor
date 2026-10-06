@@ -1,0 +1,9 @@
+google-genai>=2.0
+pydantic>=2.7
+python-dotenv>=1.0
+pillow>=10.0
+pypdfium2>=4.30
+streamlit>=1.40
+pandas>=2.2
+datasets>=3.0
+pytest>=8.0

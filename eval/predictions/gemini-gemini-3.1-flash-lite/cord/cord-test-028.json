@@ -1,0 +1,51 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": null,
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "SAMGYOPSAL",
+    "is_option": false,
+    "quantity": 2.0,
+    "unit_price": 97000.0,
+    "total": 194000.0,
+    "discount": null
+   },
+   {
+    "description": "SUL LUNG TANG",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 75000.0,
+    "total": 75000.0,
+    "discount": null
+   },
+   {
+    "description": "MAKOLI",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 100000.0,
+    "total": 100000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 369000.0,
+  "discount": 0.0,
+  "service_charge": 18450.0,
+  "tax": 38745.0,
+  "total": 426195.0
+ },
+ "latency_s": 3.676162199997634,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 336
+ },
+ "error": null
+}

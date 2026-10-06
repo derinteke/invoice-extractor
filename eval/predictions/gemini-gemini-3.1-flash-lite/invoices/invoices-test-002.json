@@ -1,0 +1,31 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Trujillo-Hunt",
+  "vendor_tax_id": "992-71-8540",
+  "customer_name": "Lee and Sons",
+  "customer_tax_id": "929-86-0601",
+  "invoice_number": "62517865",
+  "date_printed": "06/02/2015",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB73HCPH34959888432899",
+  "line_items": [
+   {
+    "description": "Care & Repair of Furniture",
+    "quantity": 2.0,
+    "unit_price": 4.25,
+    "total": 8.5
+   }
+  ],
+  "subtotal": 8.5,
+  "tax": 0.85,
+  "total": 9.35
+ },
+ "latency_s": 3.22327999999834,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 246
+ },
+ "error": null
+}

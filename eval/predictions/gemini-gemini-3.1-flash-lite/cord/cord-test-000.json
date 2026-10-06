@@ -1,0 +1,35 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": "CGV",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "TICKET CP",
+    "is_option": false,
+    "quantity": 2.0,
+    "unit_price": 30000.0,
+    "total": 60000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": null,
+  "discount": -60000.0,
+  "service_charge": null,
+  "tax": 5455.0,
+  "total": 60000.0
+ },
+ "latency_s": 5.941700999996101,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 127
+ },
+ "error": null
+}

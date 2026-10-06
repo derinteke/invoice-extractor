@@ -1,0 +1,51 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": "Tous Les Jours",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "TWIST STRAWBERRY DONUT",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 10000.0,
+    "total": 10000.0,
+    "discount": null
+   },
+   {
+    "description": "TLJ CROQUETTE",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 17000.0,
+    "total": 17000.0,
+    "discount": null
+   },
+   {
+    "description": "POTATO PEPPER BAGEL",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 16000.0,
+    "total": 16000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": null,
+  "discount": null,
+  "service_charge": null,
+  "tax": null,
+  "total": 43000.0
+ },
+ "latency_s": 2.5350634999995236,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 232
+ },
+ "error": null
+}

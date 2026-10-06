@@ -1,0 +1,35 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": "KFC",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "Chicken HCC, 1Pcs",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 15000.0,
+    "total": 15000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 15000.0,
+  "discount": null,
+  "service_charge": null,
+  "tax": 1500.0,
+  "total": 16500.0
+ },
+ "latency_s": 2.4380959999980405,
+ "usage": {
+  "input_tokens": 1448,
+  "output_tokens": 132
+ },
+ "error": null
+}

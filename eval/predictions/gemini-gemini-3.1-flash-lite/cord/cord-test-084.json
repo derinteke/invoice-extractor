@@ -1,0 +1,43 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": null,
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": "IDR",
+  "iban": null,
+  "line_items": [
+   {
+    "description": "Kroket",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 12000.0,
+    "total": 12000.0,
+    "discount": null
+   },
+   {
+    "description": "Arem Arem",
+    "is_option": false,
+    "quantity": 2.0,
+    "unit_price": 12000.0,
+    "total": 24000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 36000.0,
+  "discount": null,
+  "service_charge": null,
+  "tax": 3600.0,
+  "total": 39600.0
+ },
+ "latency_s": 2.1231953000024077,
+ "usage": {
+  "input_tokens": 1452,
+  "output_tokens": 186
+ },
+ "error": null
+}

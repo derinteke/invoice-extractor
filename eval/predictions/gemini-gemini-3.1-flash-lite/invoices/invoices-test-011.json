@@ -1,0 +1,37 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Conley Ltd",
+  "vendor_tax_id": "919-79-8417",
+  "customer_name": "Wells-Avery",
+  "customer_tax_id": "965-90-7208",
+  "invoice_number": "58478169",
+  "date_printed": "07/04/2016",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB23MPYI18052629547218",
+  "line_items": [
+   {
+    "description": "30 Inches Marble Patio Table Top Malachite Stone Inlaid Coffee Table Home Decor",
+    "quantity": 3.0,
+    "unit_price": 1023.75,
+    "total": 3071.25
+   },
+   {
+    "description": "48 Inch Marble Restaurant Table Inlay with Lapis Lazuli Stone Dinning Table Top",
+    "quantity": 3.0,
+    "unit_price": 2692.0,
+    "total": 8076.0
+   }
+  ],
+  "subtotal": 11147.25,
+  "tax": 1114.73,
+  "total": 12261.98
+ },
+ "latency_s": 2.9773863999944297,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 344
+ },
+ "error": null
+}

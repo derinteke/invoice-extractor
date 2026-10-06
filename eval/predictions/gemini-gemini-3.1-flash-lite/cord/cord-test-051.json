@@ -1,0 +1,59 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": "SOLARIA",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "(TA) NASI GORENG TERI MEDAN",
+    "is_option": false,
+    "quantity": 4.0,
+    "unit_price": null,
+    "total": 165460.0,
+    "discount": null
+   },
+   {
+    "description": "(TA) BIHUN GORENG SEAFOOD",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 40456.0,
+    "discount": null
+   },
+   {
+    "description": "(TA) KWETIAW SEAFOOD SIRAM",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 42274.0,
+    "discount": null
+   },
+   {
+    "description": "(TA) NASI GORENG",
+    "is_option": false,
+    "quantity": 2.0,
+    "unit_price": null,
+    "total": 55456.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 303646.0,
+  "discount": null,
+  "service_charge": null,
+  "tax": 30365.0,
+  "total": 334000.0
+ },
+ "latency_s": 5.402400099999795,
+ "usage": {
+  "input_tokens": 1448,
+  "output_tokens": 279
+ },
+ "error": null
+}

@@ -1,0 +1,61 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Hayes-Mcdonald",
+  "vendor_tax_id": "906-99-8086",
+  "customer_name": "Sheppard, Guerrero and Castillo",
+  "customer_tax_id": "960-84-4731",
+  "invoice_number": "77404624",
+  "date_printed": "10/20/2014",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB91DIDO06197597108680",
+  "line_items": [
+   {
+    "description": "HP Desktop Computer 400 G1 Core i3 3.4GHz 8GB 256GB SSD 19\" LCD Windows 10 PC",
+    "quantity": 2.0,
+    "unit_price": 139.95,
+    "total": 279.9
+   },
+   {
+    "description": "Lenovo C20-00...all in one desktop computer ...with Wireless Mouse.....",
+    "quantity": 5.0,
+    "unit_price": 277.64,
+    "total": 1388.2
+   },
+   {
+    "description": "AMD Quad Core Custom Built Gaming PC Computer Desktop 16GB 2TB Blue LED",
+    "quantity": 4.0,
+    "unit_price": 509.99,
+    "total": 2039.96
+   },
+   {
+    "description": "CUSTOM BUILT AMD RYZEN THREADRIPPER GAMING COMPUTER , 32 GB RAM,",
+    "quantity": 3.0,
+    "unit_price": 1400.0,
+    "total": 4200.0
+   },
+   {
+    "description": "Dell Desktop Computer Optiplex 790 Tower PC Core i5 8GB 500GB Windows 10 Pro",
+    "quantity": 5.0,
+    "unit_price": 149.95,
+    "total": 749.75
+   },
+   {
+    "description": "Intel Compute Stick PC (32GB, 1.33GHz, 2GB) - BOXSTCK1A32WFC + Wireless Keyboard",
+    "quantity": 1.0,
+    "unit_price": 29.99,
+    "total": 29.99
+   }
+  ],
+  "subtotal": 8687.8,
+  "tax": 868.78,
+  "total": 9556.58
+ },
+ "latency_s": 4.671439600002486,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 660
+ },
+ "error": null
+}

@@ -1,0 +1,43 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": "xxi café",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": "IDR",
+  "iban": null,
+  "line_items": [
+   {
+    "description": "Lemon Tea (L)",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 25000.0,
+    "total": 25000.0,
+    "discount": null
+   },
+   {
+    "description": "Caramel Small",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 38000.0,
+    "total": 38000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": null,
+  "discount": null,
+  "service_charge": null,
+  "tax": null,
+  "total": 63000.0
+ },
+ "latency_s": 3.5110132999980124,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 173
+ },
+ "error": null
+}

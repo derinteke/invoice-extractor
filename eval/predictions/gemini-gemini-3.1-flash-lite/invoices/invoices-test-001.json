@@ -1,0 +1,61 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Hopkins and Sons",
+  "vendor_tax_id": "952-73-7223",
+  "customer_name": "Sims PLC",
+  "customer_tax_id": "995-88-9495",
+  "invoice_number": "13194726",
+  "date_printed": "05/29/2021",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB31LZXS20242755934691",
+  "line_items": [
+   {
+    "description": "Beach Lunch Lounge Striped Shirt Dress Large Navy Blue White Long Sleeve Causal",
+    "quantity": 1.0,
+    "unit_price": 16.99,
+    "total": 16.99
+   },
+   {
+    "description": "Jams World Hawaiian [] Dress Rayon sz.L",
+    "quantity": 5.0,
+    "unit_price": 65.0,
+    "total": 325.0
+   },
+   {
+    "description": "LuLaRoe Nicole Dress Size Large 26",
+    "quantity": 2.0,
+    "unit_price": 1.99,
+    "total": 3.98
+   },
+   {
+    "description": "Johnny Was Medium Linen Wrap Dress Dessert Rose Embroiderd Bohemian",
+    "quantity": 2.0,
+    "unit_price": 89.99,
+    "total": 179.98
+   },
+   {
+    "description": "Eileen Fisher Women's Long Sleeve Fleece Lined Front Pockets Dress XS Gray",
+    "quantity": 2.0,
+    "unit_price": 15.99,
+    "total": 31.98
+   },
+   {
+    "description": "Hanna Anderson Women's L Large Coral Short Sleeve Casual Fall Tee Shirt Dress",
+    "quantity": 1.0,
+    "unit_price": 24.0,
+    "total": 24.0
+   }
+  ],
+  "subtotal": 581.93,
+  "tax": 58.19,
+  "total": 640.12
+ },
+ "latency_s": 3.477281399995263,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 566
+ },
+ "error": null
+}

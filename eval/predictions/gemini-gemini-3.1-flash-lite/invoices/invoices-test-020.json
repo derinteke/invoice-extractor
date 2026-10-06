@@ -1,0 +1,49 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Nelson, Bird and Mendoza",
+  "vendor_tax_id": "976-76-5964",
+  "customer_name": "Allen Inc",
+  "customer_tax_id": "925-90-1124",
+  "invoice_number": "54394190",
+  "date_printed": "02/23/2021",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB63GDHN20059173458044",
+  "line_items": [
+   {
+    "description": "Microsoft Xbox One S 1TB Console System Model 1681 w/ One Controller & Cables",
+    "quantity": 1.0,
+    "unit_price": 219.99,
+    "total": 219.99
+   },
+   {
+    "description": "Nintendo 64 N64 Console Complete in Box Mint Beautiful! From Japan!",
+    "quantity": 1.0,
+    "unit_price": 269.99,
+    "total": 269.99
+   },
+   {
+    "description": "Pre Order New Sony PlayStation 5 Console Disk Version Ships Fast 11/12 Confirmed",
+    "quantity": 3.0,
+    "unit_price": 850.0,
+    "total": 2550.0
+   },
+   {
+    "description": "Sony SCPH-30001R PlayStation 2 Fat Console System w/ Network Adapter",
+    "quantity": 4.0,
+    "unit_price": 79.99,
+    "total": 319.96
+   }
+  ],
+  "subtotal": 3359.94,
+  "tax": 335.99,
+  "total": 3695.93
+ },
+ "latency_s": 3.424645499995677,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 479
+ },
+ "error": null
+}

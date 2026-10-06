@@ -1,0 +1,31 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Spence-Castro",
+  "vendor_tax_id": "965-84-3671",
+  "customer_name": "Wolfe and Sons",
+  "customer_tax_id": "937-77-3183",
+  "invoice_number": "69934544",
+  "date_printed": "04/17/2014",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB22MTVU06245364076494",
+  "line_items": [
+   {
+    "description": "Hammered Brass Over Stainless steel Stemless Wine Glasses/ Candle Holders",
+    "quantity": 4.0,
+    "unit_price": 9.99,
+    "total": 39.96
+   }
+  ],
+  "subtotal": 39.96,
+  "tax": 4.0,
+  "total": 43.96
+ },
+ "latency_s": 1.5153925999984494,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 258
+ },
+ "error": null
+}

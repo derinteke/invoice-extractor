@@ -1,0 +1,55 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Stone-Waller",
+  "vendor_tax_id": "994-99-6683",
+  "customer_name": "Shaw Group",
+  "customer_tax_id": "914-79-8228",
+  "invoice_number": "90508672",
+  "date_printed": "04/16/2020",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB61GZVZ46496690777484",
+  "line_items": [
+   {
+    "description": "SOFA SET",
+    "quantity": 2.0,
+    "unit_price": 250.0,
+    "total": 500.0
+   },
+   {
+    "description": "Real Madrid Inflatable Chair (SG16136)",
+    "quantity": 3.0,
+    "unit_price": 43.95,
+    "total": 131.85
+   },
+   {
+    "description": "13 Inch Marble Coffee Table Stone Game Table Mother of Pearl with Check Pattern",
+    "quantity": 4.0,
+    "unit_price": 301.75,
+    "total": 1207.0
+   },
+   {
+    "description": "Carnelian Stone Floral Pattern Dinette Table Top Marble Coffee Table 30 Inches",
+    "quantity": 2.0,
+    "unit_price": 993.75,
+    "total": 1987.5
+   },
+   {
+    "description": "3'x2' Black Marvels Top Dining Table Italian Handmade Floral Art Christmas Gift",
+    "quantity": 1.0,
+    "unit_price": 2585.0,
+    "total": 2585.0
+   }
+  ],
+  "subtotal": 6411.35,
+  "tax": 641.14,
+  "total": 7052.49
+ },
+ "latency_s": 4.844477099999494,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 514
+ },
+ "error": null
+}

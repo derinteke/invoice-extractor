@@ -1,0 +1,51 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": "SAMS",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "J.STB PROMO",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 17500.0,
+    "discount": null
+   },
+   {
+    "description": "Y.B.BAT",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 46000.0,
+    "discount": null
+   },
+   {
+    "description": "Y.BASO PROM",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 27500.0,
+    "discount": null
+   }
+  ],
+  "subtotal": null,
+  "discount": null,
+  "service_charge": null,
+  "tax": null,
+  "total": 91000.0
+ },
+ "latency_s": 3.907794999999169,
+ "usage": {
+  "input_tokens": 1412,
+  "output_tokens": 186
+ },
+ "error": null
+}

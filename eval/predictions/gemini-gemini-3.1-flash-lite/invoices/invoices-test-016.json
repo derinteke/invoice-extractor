@@ -1,0 +1,67 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Whitaker Ltd",
+  "vendor_tax_id": "931-73-0965",
+  "customer_name": "Stout-Miller",
+  "customer_tax_id": "938-72-5881",
+  "invoice_number": "23152691",
+  "date_printed": "08/01/2015",
+  "date": null,
+  "currency": null,
+  "iban": "GB71ALPL38952311779111",
+  "line_items": [
+   {
+    "description": "personal computer",
+    "quantity": 4.0,
+    "unit_price": 59.0,
+    "total": 236.0
+   },
+   {
+    "description": "HP All-in-One Computer 22” Full-HD Display Intel 2.90GHz 4GB 1TB HD Win10 - TEAL",
+    "quantity": 1.0,
+    "unit_price": 449.99,
+    "total": 449.99
+   },
+   {
+    "description": "Dell Optiplex SFF Desktop Computer Windows 10 4GB 160GB",
+    "quantity": 4.0,
+    "unit_price": 89.99,
+    "total": 359.96
+   },
+   {
+    "description": "HP Elite 8300 Business USFF Desktop Computer i3 4GB 250GB Windows 10",
+    "quantity": 2.0,
+    "unit_price": 84.99,
+    "total": 169.98
+   },
+   {
+    "description": "SAMA RGB Gaming PC Desktop Computer i5 3.7GHz Nvidia GTX 1060 16GB Windows 10",
+    "quantity": 5.0,
+    "unit_price": 400.0,
+    "total": 2000.0
+   },
+   {
+    "description": "Lenovo C20-00...all in one desktop computer ...with Wireless Mouse.....",
+    "quantity": 3.0,
+    "unit_price": 277.64,
+    "total": 832.92
+   },
+   {
+    "description": "Dell Optiplex 7040 SFF PC Computer Intel Core i5-6500 3.2GHz 4GB RAM 500GB HDD",
+    "quantity": 3.0,
+    "unit_price": 99.99,
+    "total": 299.97
+   }
+  ],
+  "subtotal": 4348.82,
+  "tax": 434.88,
+  "total": 4783.7
+ },
+ "latency_s": 5.490177600004245,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 713
+ },
+ "error": null
+}

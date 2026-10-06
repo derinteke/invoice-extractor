@@ -1,0 +1,59 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": "PHO 24",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": "IDR",
+  "iban": null,
+  "line_items": [
+   {
+    "description": "TAHU GORENG",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 28000.0,
+    "total": 28000.0,
+    "discount": null
+   },
+   {
+    "description": "CAKWE",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 17000.0,
+    "total": 17000.0,
+    "discount": null
+   },
+   {
+    "description": "PHO TAI CHIN ( R )",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 63000.0,
+    "total": 63000.0,
+    "discount": null
+   },
+   {
+    "description": "TEA",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 11000.0,
+    "total": 11000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 119000.0,
+  "discount": null,
+  "service_charge": 8330.0,
+  "tax": 12733.0,
+  "total": 140063.0
+ },
+ "latency_s": 2.4704415000014706,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 336
+ },
+ "error": null
+}

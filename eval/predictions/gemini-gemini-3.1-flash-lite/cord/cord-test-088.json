@@ -1,0 +1,43 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": "Auntie Anne's",
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "STIX ECLAIRS",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 19000.0,
+    "total": 19000.0,
+    "discount": null
+   },
+   {
+    "description": "ALMOND CREAM CHEESE",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 28000.0,
+    "total": 28000.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 47000.0,
+  "discount": null,
+  "service_charge": null,
+  "tax": null,
+  "total": 47000.0
+ },
+ "latency_s": 2.351558499998646,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 183
+ },
+ "error": null
+}

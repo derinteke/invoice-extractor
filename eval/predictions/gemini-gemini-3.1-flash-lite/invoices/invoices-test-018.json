@@ -1,0 +1,43 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Byrd PLC",
+  "vendor_tax_id": "991-72-8541",
+  "customer_name": "Palmer LLC",
+  "customer_tax_id": "947-73-4805",
+  "invoice_number": "84777898",
+  "date_printed": "06/02/2017",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB55NFWY80188862802477",
+  "line_items": [
+   {
+    "description": "Vintage Cobalt Blue Spiral Stemmed Wine Glasses - Pair",
+    "quantity": 1.0,
+    "unit_price": 30.0,
+    "total": 30.0
+   },
+   {
+    "description": "1PC Tricycle Shape Red Wine Rack Cocktail Holder Wine Display Rack for Home Bar",
+    "quantity": 5.0,
+    "unit_price": 32.13,
+    "total": 160.65
+   },
+   {
+    "description": "Wine Glass European Style Wine Glass Rack for Home Kitchen Bar Restaurant",
+    "quantity": 3.0,
+    "unit_price": 31.79,
+    "total": 95.37
+   }
+  ],
+  "subtotal": 286.02,
+  "tax": 28.6,
+  "total": 314.62
+ },
+ "latency_s": 6.135296799999196,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 380
+ },
+ "error": null
+}

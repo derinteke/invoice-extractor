@@ -1,0 +1,55 @@
+{
+ "document": {
+  "doc_type": "invoice",
+  "vendor_name": "Smith Ltd",
+  "vendor_tax_id": "916-97-6743",
+  "customer_name": "Herring-Floyd",
+  "customer_tax_id": "913-80-4636",
+  "invoice_number": "26343874",
+  "date_printed": "07/17/2013",
+  "date": null,
+  "currency": "USD",
+  "iban": "GB78TZMX55978564099007",
+  "line_items": [
+   {
+    "description": "Microsoft Xbox One X 1TB 4k Ultra HD Console black controller works great 1787",
+    "quantity": 5.0,
+    "unit_price": 249.0,
+    "total": 1245.0
+   },
+   {
+    "description": "Cables 500gb,Sony PlayStation 4 PS4 CUH 1215A Jet Black Console w/ Controller",
+    "quantity": 5.0,
+    "unit_price": 100.0,
+    "total": 500.0
+   },
+   {
+    "description": "PS2 Slim Console System SCPH-77000 PINK Playstation 2 Tested",
+    "quantity": 4.0,
+    "unit_price": 252.0,
+    "total": 1008.0
+   },
+   {
+    "description": "Nintendo Game Boy Micro Console - Black (OXYSFBB)",
+    "quantity": 2.0,
+    "unit_price": 130.0,
+    "total": 260.0
+   },
+   {
+    "description": "Nintendo GameCube System Console Bundle Mario Sunshine + Genuine controller LOT",
+    "quantity": 1.0,
+    "unit_price": 159.99,
+    "total": 159.99
+   }
+  ],
+  "subtotal": 3172.99,
+  "tax": 317.3,
+  "total": 3490.29
+ },
+ "latency_s": 5.229433100001188,
+ "usage": {
+  "input_tokens": 1326,
+  "output_tokens": 539
+ },
+ "error": null
+}

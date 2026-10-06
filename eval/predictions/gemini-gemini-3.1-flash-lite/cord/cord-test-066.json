@@ -1,0 +1,43 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": null,
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": "IDR",
+  "iban": null,
+  "line_items": [
+   {
+    "description": "PILLOW DURIA",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 36364.0,
+    "total": 36364.0,
+    "discount": null
+   },
+   {
+    "description": "PLASTIK 25",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": 0.0,
+    "total": 0.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 36364.0,
+  "discount": null,
+  "service_charge": null,
+  "tax": 3636.0,
+  "total": 40000.0
+ },
+ "latency_s": 3.056088599994837,
+ "usage": {
+  "input_tokens": 1428,
+  "output_tokens": 261
+ },
+ "error": null
+}

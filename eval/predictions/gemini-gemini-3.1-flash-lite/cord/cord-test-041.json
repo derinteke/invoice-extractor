@@ -1,0 +1,107 @@
+{
+ "document": {
+  "doc_type": "receipt",
+  "vendor_name": null,
+  "vendor_tax_id": null,
+  "customer_name": null,
+  "customer_tax_id": null,
+  "invoice_number": null,
+  "date_printed": null,
+  "date": null,
+  "currency": null,
+  "iban": null,
+  "line_items": [
+   {
+    "description": "Chicken Maryland",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 47619.0,
+    "discount": null
+   },
+   {
+    "description": "Cappucino (Hot/Iced)",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 30303.0,
+    "discount": null
+   },
+   {
+    "description": "Naga Lychee Juice",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 34632.0,
+    "discount": null
+   },
+   {
+    "description": "Cafe Latte",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 30303.0,
+    "discount": null
+   },
+   {
+    "description": "Hot Chocolate Marshmallo",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 30303.0,
+    "discount": null
+   },
+   {
+    "description": "Chicken Cesar Salad",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 43290.0,
+    "discount": null
+   },
+   {
+    "description": "Mineral Water",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 12987.0,
+    "discount": null
+   },
+   {
+    "description": "Mineral Water",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 12987.0,
+    "discount": null
+   },
+   {
+    "description": "Lychee/Peach/Lemon/Mango",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 25974.0,
+    "discount": null
+   },
+   {
+    "description": "Chicken Maryland",
+    "is_option": false,
+    "quantity": 1.0,
+    "unit_price": null,
+    "total": 47619.0,
+    "discount": null
+   }
+  ],
+  "subtotal": 316017.0,
+  "discount": null,
+  "service_charge": 48982.68,
+  "tax": null,
+  "total": 365000.0
+ },
+ "latency_s": 4.67546179999772,
+ "usage": {
+  "input_tokens": 1448,
+  "output_tokens": 626
+ },
+ "error": null
+}
